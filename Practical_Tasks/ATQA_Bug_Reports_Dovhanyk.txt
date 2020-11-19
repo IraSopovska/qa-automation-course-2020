@@ -1,0 +1,73 @@
+Bug reports
+
+1. Name: Bug - Link 'Order the advertisement'is not redirected the user to the Order Advertisement Page
+   Summary: Link 'Order the advertisement' which is located on the footer of the page is not redirected the user to the Order Advertisement Page. 
+   The user stays on the Main Page.
+
+   Steps to reproduce:
+
+   • Go to https://pravda.if.ua/
+   • Scroll the page to the bottom of the page
+   • Click on the Link 'Order the advertisement'
+   • Verify the user is redirected to the Order Advertisement Page
+
+   Actual result: The user is not redirected to the Order Advertisement Page.The user is stayed on the Main Page.
+
+   Expected result: The user should be redirected to the Order Advertisement Page
+
+   Environment: Production 
+
+2. Name: Bug - Contact form is not displaying on the Contact Page
+   Summary: The contact form on the Contact Page is displaying as html tag. There is no ability to fill out the form.
+   
+   Steps to reproduce:
+
+   • Go to https://pravda.if.ua/
+   • Click on the Contact tap 
+   • Scroll to the ' Write to us' section on the Contact page
+   • Verify the contact form is displaying on the Contact page
+   
+   Actual result: The contact form is displaying as html tag.
+   
+   Expected result: The contact form should be dispayed properly with the ability to fill it out.
+  
+   Environment: Production 
+
+3. Name: Bug - Link 'Articles' is not redirected the user to the page with Articles
+   Summary: Link 'Articles' which is located on the header of the page is not redirected the user to the page with Articles. 
+   The user is on the same page as before.
+   
+   Steps to reproduce:
+
+   • Go to https://pravda.if.ua/
+   • Click on the link 'Articles' 
+   • Verify the user is redirected to the page with Articles
+   
+   Actual result: The user is not redirected to the page with Articles.
+   
+   Expected result: Link 'Articles' is redirected the user to the page with Articles.
+  
+   Environment: Production 
+
+4. Name: Bug -The errors can appear in English and Ukrainian languages in the comment section under the news
+   Summary:When the user has entered the invalid data in comment section under the news the errors can appear in English and Ukrainian languages
+   
+   Steps to reproduce:
+
+   • Go to https://pravda.if.ua/
+   • Click on one off the Breaking news
+   • Scroll to the bottom of the articles which is dispaying and find the comment section
+   • Press button 'Send Comment'with empty field
+   • Verify the error message has appeared
+   • Press Subscription and entered invalid date in the email field
+   • Verify the error message has appeared
+
+   Actual result: Two errors have appeared, but one in Ukrainian, another one in English. Empty comment error : 'Please fill out required fields'
+   Invalid email: Помилка підписки.
+
+   Expected result: The errors should be dispayed and transtaled into one language ( Urkainian).
+   
+   Environment: Production 
+
+
+
