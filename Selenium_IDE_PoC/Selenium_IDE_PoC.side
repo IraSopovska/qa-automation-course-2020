@@ -1,0 +1,391 @@
+{
+  "id": "c3cd17ef-80c4-4ed1-b267-d5c35be21086",
+  "version": "2.0",
+  "name": "Selenium_IDE_PoC",
+  "url": "https://www.ebay.com",
+  "tests": [{
+    "id": "54f491bc-b987-437e-9933-3491b9d2e92e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "5a1a04da-59ad-4ecc-b9d3-a3b1a32cd51c",
+    "name": "Test_1",
+    "commands": [{
+      "id": "fa98c8e3-3865-4f18-9d0c-457ee43fb8fc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0c4cc8c-a514-436a-99f9-f3bec5491fe0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "561b7522-1a8b-414d-972f-eea0111144e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sports",
+      "targets": [
+        ["linkText=Sports", "linkText"],
+        ["css=.hl-cat-nav__js-show > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sports')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.com/b/Sporting-Goods/888/bn_1865031')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc0f48c9-367a-453f-81a1-19b2b00510c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s0-29-13-0-1\\[0\\]-0-0-38\\[1\\]-0-toggle-button > .b-accordion-text",
+      "targets": [
+        ["css=#s0-29-13-0-1\\[0\\]-0-0-38\\[1\\]-0-toggle-button > .b-accordion-text", "css:finder"],
+        ["xpath=//button[@id='s0-29-13-0-1[0]-0-0-38[1]-0-toggle-button']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cycling')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a449871-5519-4e1f-8b65-db80b11695bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bicycles",
+      "targets": [
+        ["linkText=Bicycles", "linkText"],
+        ["css=#s0-29-13-0-1\\[0\\]-0-0-38\\[1\\]-0 li:nth-child(8) > .b-textlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Bicycles')]", "xpath:link"],
+        ["xpath=//li[@id='s0-29-13-0-1[0]-0-0-38[1]-0']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.com/b/Bicycles/177831/bn_1865335')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bicycles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f441a70b-4471-4120-8eb2-3a51eb29f668",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(1) .s-item__title",
+      "targets": [
+        ["css=.s-item:nth-child(1) .s-item__title", "css:finder"],
+        ["xpath=//section[@id='s0-26_2-9-0-1[0]-0-1']/ul/li/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a20860c-b999-4407-a9af-6bcf5c4ea4d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=isCartBtn_btn",
+      "targets": [
+        ["id=isCartBtn_btn", "id"],
+        ["linkText=Add to cart", "linkText"],
+        ["css=#isCartBtn_btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@id='isCartBtn_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='atcWrapperId']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cart.payments.ebay.com/sc/add?item=iid:353278825445,qty:1&srt=01000500000050d57aa695b0cbabf38efcaf71c2afec060f2c166130ff242bdbf20ac26da594849bdeff8e0f5d976c6ad0651670656421a089e9880beee3cd2939cc4676eace7f85d466b6838c9b40d445884ec39ca041&ssPageName=CART:ATC')]", "xpath:href"],
+        ["xpath=//div[4]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f056d5ac-364f-408a-9178-371822db2d56",
+    "name": "Test_2",
+    "commands": [{
+      "id": "33859c9c-c50b-4538-acc2-959c63aa295c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "645bdff4-8f0d-47ac-af07-a77b5046f4d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a113975d-b19c-4a33-b9ff-09606c8fc098",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c66dc77-27c3-413c-8b22-11bd4961f502",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Smart Watch"
+    }, {
+      "id": "c6696f0e-3cfe-4985-8b76-5e0715756e33",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-btn",
+      "targets": [
+        ["id=gh-btn", "id"],
+        ["css=#gh-btn", "css:finder"],
+        ["xpath=//input[@id='gh-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='gh-f']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8f76d274-2c3a-4c13-8706-0c37312aa4ff",
+    "name": "Test_3",
+    "commands": [{
+      "id": "065bdb36-b53e-4c2b-9c92-5d2f0d4c4c2e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "679e7e46-f0ba-48d5-a908-09f133a6e2ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9cb59a9-3746-47e7-8c5b-e60bd874a08d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,750)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2beeafee-7d0f-4213-8590-15959ff76c62",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1876.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7795d6cc-a0c8-4bfa-ba5c-df824d4e4735",
+      "comment": "",
+      "command": "click",
+      "target": "id=gf-fbtn",
+      "targets": [
+        ["id=gf-fbtn", "id"],
+        ["linkText=United States", "linkText"],
+        ["css=#gf-fbtn", "css:finder"],
+        ["xpath=//a[contains(text(),'United States')]", "xpath:link"],
+        ["xpath=//a[@id='gf-fbtn']", "xpath:attributes"],
+        ["xpath=//div[@id='gf-BIG']/table/tbody/tr/td[5]/ul/li[13]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.com')])[228]", "xpath:href"],
+        ["xpath=//li[13]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'United States')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23634ba-e542-4886-b99c-e1524cd19f67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gf-f-li3:nth-child(36) p",
+      "targets": [
+        ["css=.gf-f-li3:nth-child(36) p", "css:finder"],
+        ["xpath=//div[@id='gf-f']/ul/li[36]/a/p", "xpath:idRelative"],
+        ["xpath=//li[36]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Poland')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c6253afa-5ed1-48f1-8148-c9ecc0d9b03a",
+    "name": "Test_4",
+    "commands": [{
+      "id": "60d10961-fbed-4a04-9ac0-d45e6de4aa92",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fa49c10-553c-45de-ade2-cb0b2fa2a1fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d63a897-c932-4643-bdbc-a4ca8505936b",
+      "comment": "",
+      "command": "click",
+      "target": "id=i-srvy",
+      "targets": [
+        ["id=i-srvy", "id"],
+        ["css=#i-srvy", "css:finder"],
+        ["xpath=//button[@id='i-srvy']", "xpath:attributes"],
+        ["xpath=//div[@id='ocs-inflow']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da97054-9b0c-4492-b98a-f9961bd8a621",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=i-faq",
+      "targets": [
+        ["id=i-faq", "id"],
+        ["css=#i-faq", "css:finder"],
+        ["xpath=//button[@id='i-faq']", "xpath:attributes"],
+        ["xpath=//div[@id='ocs-inflow']/button", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c611c8-1bae-4a89-a1b2-149c49bf367b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=i-faq",
+      "targets": [
+        ["id=i-faq", "id"],
+        ["css=#i-faq", "css:finder"],
+        ["xpath=//button[@id='i-faq']", "xpath:attributes"],
+        ["xpath=//div[@id='ocs-inflow']/button", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d02ada8c-fef9-466c-8174-d0cba0773bd7",
+      "comment": "",
+      "command": "click",
+      "target": "id=_ch09",
+      "targets": [
+        ["id=_ch09", "id"],
+        ["css=#\\_ch09", "css:finder"],
+        ["xpath=//input[@id='_ch09']", "xpath:attributes"],
+        ["xpath=//div[@id='surveycontentovly']/div/div/fieldset/div/ul[3]/li[5]/span/input", "xpath:idRelative"],
+        ["xpath=//li[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0adfb9f6-2b8e-423c-b512-32d413f7c6cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=_1",
+      "targets": [
+        ["id=_1", "id"],
+        ["css=#\\_1", "css:finder"],
+        ["xpath=//textarea[@id='_1']", "xpath:attributes"],
+        ["xpath=//div[@id='surveycontentovly']/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4f2fd15-1b1c-434a-a776-f127b2410c3c",
+      "comment": "",
+      "command": "type",
+      "target": "id=_1",
+      "targets": [
+        ["id=_1", "id"],
+        ["css=#\\_1", "css:finder"],
+        ["xpath=//textarea[@id='_1']", "xpath:attributes"],
+        ["xpath=//div[@id='surveycontentovly']/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "like it"
+    }, {
+      "id": "8bbe8611-6d82-452d-89c5-bfb031478785",
+      "comment": "",
+      "command": "click",
+      "target": "id=sbtsurvey",
+      "targets": [
+        ["id=sbtsurvey", "id"],
+        ["css=#sbtsurvey", "css:finder"],
+        ["xpath=//input[@id='sbtsurvey']", "xpath:attributes"],
+        ["xpath=//div[@id='surveycontentovly']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "17e2fd2d-8ea3-4c69-9710-e864ba8eb041",
+    "name": "Test_5",
+    "commands": [{
+      "id": "02b6102a-b547-49e8-8667-e1966e5a99ef",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6adfa337-9c38-496b-86f7-8a9021fff820",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51963c92-5f18-4b7c-97de-a5cb38ead803",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1375.833251953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0daff959-9b87-4599-a156-f4f6619e3793",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3095.833251953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fced9094-0f96-4941-b26a-d50933c327c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Facebook",
+      "targets": [
+        ["linkText=Facebook", "linkText"],
+        ["css=.thrd:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Facebook')]", "xpath:link"],
+        ["xpath=//div[@id='gf-BIG']/table/tbody/tr/td[3]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/eBay')]", "xpath:href"],
+        ["xpath=//td[3]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6a3d34c4-73f0-455e-bff5-58b19bd070be",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54f491bc-b987-437e-9933-3491b9d2e92e"]
+  }, {
+    "id": "5229c052-9546-446e-b24a-24f467fcd14c",
+    "name": "Practical_Task",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["5a1a04da-59ad-4ecc-b9d3-a3b1a32cd51c", "f056d5ac-364f-408a-9178-371822db2d56", "8f76d274-2c3a-4c13-8706-0c37312aa4ff", "c6253afa-5ed1-48f1-8148-c9ecc0d9b03a", "17e2fd2d-8ea3-4c69-9710-e864ba8eb041"]
+  }],
+  "urls": ["https://www.ebay.com/"],
+  "plugins": []
+}
