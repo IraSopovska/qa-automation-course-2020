@@ -1,67 +1,46 @@
-1.Verify the user has the ability to add the item from the Sports Tap into the basket (cart)
 
-Steps:
+Test-1
 
 1. Go to https://www.ebay.com/
-2. Click on Sports Tab
+2. Click on Sports Tab 
 3. Click on Cycling category on the left menu
 4. Click on the Bicycle sub category on the left menu
-5. Select Mountain Bike type
-6. Do not sort ( Best Match is selected by default)
-7. Select the first bike from the list ( Mountain Bike/Bicycle NEW SPEED Fat Tire)
-8. Press 'Add to cart' button
-9. Verify the selected bicycle is added to the basket
-
-Expected result: The selected bicycle should be added to the basket
+5. Select Mountain Bike type 
+6. First Bike in the result list should be from Mountain Bike category
 
 
-2.Verify the user has the ability to search the item on the website by entering the text into it
 
-Steps:
+Test-2
 
 1. Go to https://www.ebay.com/
-2. Enter text - Smart Watch in the Search field on the Main page
-3. Press 'Search' button next to Search field
-4. Verify the list with all Smart Watches are displaying below the Search field
+2. Click on 'Shop by category'
+3. Select Baby category 
+4. Click on Baby Safety&Health 
+5. Select Brand "Braun'
+8. The list with all items with Braun Brand are displaying
 
-Expected result: The list with all Smart Watches should be displayed below the Search field
 
-3. Verify the user has the ability to be redirected to eBay Site of another country (Poland)
+Test-3
 
-Steps:
+
+1. Go to https://www.ebay.com/
+2. Enter text - Smart Watch in the Search field on the Main page 
+3. Press 'Search' button next to Search field 
+4. The list with all Smart Watches are displaying below the Search field 
+
+Test-4
 
 1. Go to https://www.ebay.com/
 2. Scroll to the bottom of the page
-3. Find the eBay Sites label in the lower right corner of the page
-4. Select Poland from the list
-5. Verify the user is redirected to the Poland eBay site ( https://www.ebay.pl/)
-
-Expected result: The user should be redirected to the Poland eBay site ( https://www.ebay.pl/)
-
-4.Verify the user can leave the feedback regarding the eBay Site in the Help Section that is attached on the right side of the Main Page 
-
-Steps:
-
-1. Go to https://www.ebay.com/
-2. Find the Help Section that is attached on the right side of the Main Page 
-3. Click on the notebook mark on the Help Section
-4. Choose a rating
-5. Enter the text in the field
-6. Press 'Send' button
-7. Verify the feedback has been sent
+3. Find the eBay Sites label in the lower right corner of the page 
+4. Select Poland from the list 
+5. Verify the user is redirected to the Poland eBay site 
 
 
-Expected result:The feedback should be sent
-
-
-5.Verify the user has the ability to be redirected to the facebook version of the site
-
-Steps:
+Test-5
 
 1. Go to https://www.ebay.com/
 2. Scroll to the bottom of the page
 3. Click on the facebook link
-4. Verify the user is redirected to the facebook version of the site
-
-Expected result: The user should be redirected to the facebook of the site
+4. The user is redirected to the facebook version of the site 
 
