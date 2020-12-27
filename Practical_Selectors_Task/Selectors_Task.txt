@@ -3,10 +3,10 @@ Test-1
 
 1. Go to https://www.ebay.com/
 2. Click on Sports Tab //div[@id='mainContent']//*[@data-hover-track='p2481888.m1384.l6435']; //*[@data-hover-track='p2481888.m1384.l6435'] ;||||| [data-hover-track='p2481888.m1384.l6435']
-3. Click on Cycling category on the left menu //*[@id="s0-29-13-0-1[0]-0-0-38[1]-0-accordion-arrow"] ; //div[@id='leftnav']//*[@id="s0-29-13-0-1[0]-0-0-38[1]-0-accordion-arrow"] |||| [id='s0-29-13-0-1[0]-0-0-38[1]-0-accordion-arrow']
-4. Click on the Bicycle sub category on the left menu //div[@id='leftnav']//*[@_sp='p2489527.m4337.l9750.c20']; //*[@_sp='p2489527.m4337.l9750.c20']||||[href="https://www.ebay.com/b/Bicycles/177831/bn_1865335" ]
-5. Select Mountain Bike type //*[@id='s0-26-9-0-1[0]-0-1[1]-0-xCarousel-x-carousel']//a[@href="https://www.ebay.com/b/Mountain-Bikes/177831/bn_1867986"]; //*[@id="s0-26-9-0-1[0]-0-1[1]-0-xCarousel-x-carousel-items"]//li[1] |||||
-6. First Bike in the result list should be from Mountain Bike category//h3[contains(text(),'Muddyfox Hector 26" Mountain Bike')], //*[@id="s0-26_1-9-0-1[0]-0-1"]/ul/li[1]/div/div[2]/a/h3 ||||
+3. Click on Cycling category on the left menu //*[@id="s0-16-13-0-1[0]-0-0-38[1]-0-toggle-button"]/span ; //div[@id='leftnav']//*[@id="s0-16-13-0-1[0]-0-0-38[1]-0-toggle-button"]/span |||| #s0-16-13-0-1\[0\]-0-0-38\[1\]-0-toggle-button > span
+4. Click on the Bicycle sub category on the left menu //*[@id="s0-16-13-0-1[0]-0-0-38[1]-0"]/ul/li[8]/a; //div[@id='leftnav']//*[@id="s0-16-13-0-1[0]-0-0-38[1]-0"]/ul/li[8]/a; //*[@_sp='p2489527.m4337.l9750.c20']||||#s0-16-13-0-1\[0\]-0-0-38\[1\]-0 > ul > li:nth-child(8) > a
+5. Select Mountain Bike type //*[@id="s0-16-13_2-0-1[1]-0-6-0-0[0]-multiselect[]_13"]/a/span[1]|||| #s0-16-13_2-0-1\[1\]-0-6-0-0\[0\]-multiselect\[\]_13 > a > span.cbx.x-refine__multi-select-cbx
+6. First Bike in the result list should be from Mountain Bike category //*[@id="s0-27_2-9-0-1[0]-0-1"]/ul/li[1]/div/div[2]/a/h3|||||#s0-27_2-9-0-1\[0\]-0-1 > ul > li:nth-child(1) > div > div.s-item__info.clearfix > a > h3
 
 
 
@@ -16,7 +16,7 @@ Test-2
 3. Select Baby category //*[@_sp="m570.l3644"]; //a[contains(text(),'Baby')]||||[href="https://www.ebay.com/b/Baby/2984/bn_1854104"]
 4. Click on Baby Safety&Health //*[@id="s0-26-9-0-1[0]-0-1[0]-0-xCarousel-x-carousel-items"]/ul/li[1]/a/p; //p[contains(text(),'Baby Safety & Health')] ||||#s0-26-9-0-1\[0\]-0-1\[0\]-0-xCarousel-x-carousel-items > ul > li:nth-child(1) > a > p
 5. Select Brand "Braun'//*[@id="s0-29-13_2-0-1[1]-0-6-0-0[0]-multiselect[]"]/a/span[1] ||||#s0-29-13_2-0-1\[1\]-0-6-0-0\[0\]-multiselect\[\] > a > span.cbx.x-refine__multi-select-cbx
-8. The list with all items with Braun Brand are displaying
+8. The list with all items with Braun Brand are displaying //*[@id="s0-27_1-9-0-1[0]-0-1"]/ul |||| #s0-27_1-9-0-1\[0\]-0-1 > ul
 
 
 Test-3
